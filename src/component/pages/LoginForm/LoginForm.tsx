@@ -128,6 +128,7 @@ const LoginForm: React.FC = () => {
                         <IconButton
                           aria-label="toggle password visibility"
                           onClick={() => setShowPassword(!showPassword)}
+                          color="info"
                         >
                           {showPassword ? <Visibility /> : <VisibilityOff />}
                         </IconButton>
@@ -173,7 +174,7 @@ const LoginForm: React.FC = () => {
           </Form>
         )}
       </Formik>
-      <Box>
+      <Box marginTop={2}>
         <Button
           variant="outlined"
           color="primary"

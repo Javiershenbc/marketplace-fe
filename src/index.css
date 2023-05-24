@@ -47,3 +47,8 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
+@font-face {
+  font-family: "sk-concretica"; /* you can name it whatever you want */
+  src: url("/src/assets/fonts/SK-Concretica_Regular.woff") format("woff"); /* path to your .otf file */
+}

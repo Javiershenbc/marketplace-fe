@@ -7,11 +7,11 @@ export const theme = createTheme({
         root: {
           "&.Mui-focused fieldset": {
             borderColor: "blue", // change color when focused
-            textColor: "white",
+            textColor: "grey",
           },
           "&.Mui-hover fieldset": {
             borderColor: "red", // change color when focused
-            textColor: "white",
+            textColor: "grey",
           },
           "&.Mui-error fieldset": {
             borderColor: "red", // keep red color when there's an error
@@ -19,8 +19,8 @@ export const theme = createTheme({
         },
         notchedOutline: {
           borderColor: "white", // default color of outline
-          background: "white",
-          WebkitTextFillColor: "white",
+          //   backgroundColor: "white",
+          WebkitTextStrokeColor: "#fef",
         },
       },
     },
@@ -32,5 +32,11 @@ export const theme = createTheme({
     secondary: {
       main: "#ff0000",
     },
+    info: {
+      main: "#fff",
+    },
+  },
+  typography: {
+    fontFamily: "sk-concretica",
   },
 });
