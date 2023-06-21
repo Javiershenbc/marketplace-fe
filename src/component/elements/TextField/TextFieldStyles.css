@@ -1,0 +1,10 @@
+.inputField::placeholder {
+  color: #d5d5d5;
+}
+.inputField {
+  color: #000 !important;
+}
+
+.field {
+  background-color: #fff !important;
+}

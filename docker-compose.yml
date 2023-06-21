@@ -1,0 +1,14 @@
+version: "3"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+  #   depends_on:
+  #     - api
+  # # api:
+  #   # Add your backend service configuration if needed

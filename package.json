@@ -1,50 +1,57 @@
 {
-	"name": "react-boilerplate",
-	"author": "Sede Blockchain",
-	"private": true,
-	"version": "0.0.0",
-	"type": "module",
-	"engines": {
-		"yarn": ">=1.22.0",
-		"node": ">=16.12.1",
-		"npm": "please-use-yarn"
-	},
-	"scripts": {
-		"dev": "vite",
-		"build": "tsc && vite build",
-		"preview": "vite preview",
-		"lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
-		"lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx,json}",
-		"format": "prettier --write src/**/*.{js,jsx,ts,tsx,scss,md,json} --config ./.prettierrc",
-		"prepare": "husky install"
-	},
-	"dependencies": {
-		"@emotion/react": "^11.11.0",
-		"@emotion/styled": "^11.11.0",
-		"@mui/icons-material": "^5.11.16",
-		"@mui/material": "^5.13.1",
-		"formik": "^2.2.9",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"yup": "^1.1.1"
-	},
-	"devDependencies": {
-		"@types/react": "^18.0.28",
-		"@types/react-dom": "^18.0.11",
-		"@typescript-eslint/eslint-plugin": "^5.58.0",
-		"@typescript-eslint/parser": "^5.58.0",
-		"@vitejs/plugin-react-swc": "^3.0.0",
-		"eslint": "^8.38.0",
-		"eslint-config-prettier": "^8.8.0",
-		"eslint-import-resolver-typescript": "^3.5.5",
-		"eslint-plugin-import": "^2.27.5",
-		"eslint-plugin-jsx-a11y": "^6.7.1",
-		"eslint-plugin-prettier": "^4.2.1",
-		"eslint-plugin-react": "^7.32.2",
-		"eslint-plugin-react-hooks": "^4.6.0",
-		"husky": "^8.0.3",
-		"prettier": "^2.8.7",
-		"typescript": "^4.9.3",
-		"vite": "^4.2.0"
-	}
+  "name": "react-boilerplate",
+  "author": "Sede Blockchain",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
+    "lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx,json}",
+    "format": "prettier --write src/**/*.{js,jsx,ts,tsx,scss,md,json} --config ./.prettierrc",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.1",
+    "@react-native-google-signin/google-signin": "^10.0.1",
+    "@react-oauth/google": "^0.11.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/zxcvbn": "^4.4.1",
+    "axios": "^1.4.0",
+    "formik": "^2.2.9",
+    "react": "^18.2.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.13.0",
+    "yup": "^1.1.1",
+    "zxcvbn": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.7",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
 }

@@ -1,0 +1,26 @@
+.selectInput {
+  color: #000000 !important;
+  text-align: left;
+}
+
+.selectOutlined {
+  border-color: #d5d5d5 !important;
+}
+
+.selectPaper {
+  background-color: #ffffff !important;
+}
+
+.selectFieldset {
+  border-color: #d5d5d5 !important;
+}
+
+.selectHover .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #d5d5d5 !important;
+}
+
+.selectFocus
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #d5d5d5 !important;
+}

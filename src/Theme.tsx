@@ -1,5 +1,13 @@
 import { createTheme } from "@mui/material/styles";
-
+declare module "@mui/material/styles/createPalette" {
+  interface CommonColors {
+    customColors: {
+      offBlack: string;
+      offGrey: string;
+      offBlue: string;
+    };
+  }
+}
 export const theme = createTheme({
   components: {
     MuiOutlinedInput: {
@@ -7,7 +15,7 @@ export const theme = createTheme({
         root: {
           "&.Mui-focused fieldset": {
             borderColor: "blue", // change color when focused
-            textColor: "grey",
+            textColor: "white",
           },
           "&.Mui-hover fieldset": {
             borderColor: "red", // change color when focused
@@ -34,6 +42,13 @@ export const theme = createTheme({
     },
     info: {
       main: "#fff",
+    },
+    common: {
+      customColors: {
+        offBlack: "#191919",
+        offGrey: "#D5D5D5",
+        offBlue: "#4672ED",
+      },
     },
   },
   typography: {

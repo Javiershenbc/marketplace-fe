@@ -1,0 +1,16 @@
+.MuiButton-contained {
+  border-radius: 50px !important;
+  background-color: #4672ed !important;
+}
+
+.MuiButton-contained:hover {
+  background-color: #8caafe !important;
+}
+
+.MuiButton-contained:selected {
+  background-color: #fff !important;
+  color: #4672ed !important;
+}
+.MuiButton-outlined {
+  border-radius: 50px !important;
+}
